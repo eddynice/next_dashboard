@@ -6,6 +6,9 @@ const {
   users,
 } = require('../app/lib/placeholder-data.js');
 const bcrypt = require('bcrypt');
+import { users, customers, invoices, revenue } from '../app/lib/placeholder-data';
+
+// Your seeding logic here
 
 async function seedUsers(client) {
   try {
